@@ -120,6 +120,8 @@ public class RandomColor : MonoBehaviour
             gameObjects[i].GetComponent<MeshRenderer>().material.SetColor("_Color", data[i].color);
         }
 
+        computeBuffer.Dispose();
+
         gameObject.GetComponent<FreeFall>().EndTime();
     }
 
