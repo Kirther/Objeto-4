@@ -311,8 +311,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1306045643}
-  - component: {fileID: 1306045642}
   - component: {fileID: 1306045644}
+  - component: {fileID: 1306045642}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -329,12 +329,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1306045641}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3bcec26ad91bf7e43b49b9fe91448ed7, type: 3}
+  m_Script: {fileID: 11500000, guid: 87ad49be0ccc1b646b1333664cd4284f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  computeShader: {fileID: 7200000, guid: 76294ac09720d3b48a7fda2caabbbcc4, type: 3}
-  counts: 90
-  modelPref: {fileID: 4672826123728208540, guid: c9bc032612b1c9646b174d7b0c0b9a49, type: 3}
+  computeShader: {fileID: 7200000, guid: 1cc7d7539ee1619419b881935f09c967, type: 3}
+  counts: 100
+  modelPref: {fileID: 4171782558341614936, guid: 0a7ece0c9f8e33b488a1637b5d64a28d, type: 3}
   interactions: 100
   gameObjects: []
 --- !u!4 &1306045643
@@ -360,10 +360,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1306045641}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d38cb0b6f3267044a9987953f2b1bbf7, type: 3}
+  m_Script: {fileID: 11500000, guid: 29db7bd5ec351ae408f2e80929bd312a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  freeFallCompute: {fileID: 7200000, guid: c22b8788489937d42b3e0ac91906dccd, type: 3}
+  freeFallCompute: {fileID: 7200000, guid: 950df55f0f919b6448ae1eedf0201baf, type: 3}
   ground: {fileID: 0}
   cubes: []
   posY: []
